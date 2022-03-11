@@ -1,0 +1,87 @@
+menu_id,order1,order2,menu_items,message_order,icon,context,message_type
+main_menu,none,none,Welcome to Aura Training,1,:folded_hands:,main_menu,text
+main_menu,none,none ,How can I help you?,2,none,main_menu,text
+main_menu,1,courses,1. *Courses* we offer,2,:open_book:,courses_menu,
+main_menu,2,aura,2. Know About *Aura*,2,:link:,aura_context,
+main_menu,3,contact,3. *Contact* Details,2,:mobile_phone:,contact_context,
+main_menu,4,reviews,4. Google *Reviews*,2,:smiling_face:,reviews_context,
+main_menu,5,location,5. *Location*,2,none,location_context,
+main_menu,none,none,Please type the *Keyword* or the option number (Ex:2),2,:backhand_index_pointing_up:,main_menu,
+courses_menu,none,none,Courses we offer ,1,none,courses_menu,text
+courses_menu,1,c,1. *C*-Language,1,none,c_menu,
+courses_menu,2,c++,2. *C++* Language,1,none,cpp_menu,
+courses_menu,3,python,3. *Python* Language,1,none,py_menu,
+courses_menu,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,main_menu,
+courses_menu,none,none,Please type the *Keyword* or the option number (Ex:2),1,:backhand_index_pointing_up:,courses_menu,
+c_menu,none,none,What would you like to know more about selected language ?,1,none,c_menu,text
+c_menu,1,duration,1. *Duration*,1,:hourglass_done:,c_menu_duration,
+c_menu,2,cost,2. *Cost*,1,:money_bag:,c_menu_cost,
+c_menu,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,courses_menu,
+c_menu,none,none,Please type the *Keyword* or the option number (Ex:2),1,:backhand_index_pointing_up:,c_menu,
+cpp_menu,none,none,What would you like to know more about selected language ?,1,none,cpp_menu,text
+cpp_menu,1,duration,1. *Duration*,1,:hourglass_done:,cpp_menu_duration,
+cpp_menu,2,cost,2. *Cost*,1,:money_bag:,cpp_menu_cost,
+cpp_menu,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,courses_menu,
+cpp_menu,none,none,Please type the *Keyword* or the option number (Ex:2),1,:backhand_index_pointing_up:,cpp_menu,
+py_menu,none,none,What would you like to know more about selected language ?,1,none,py_menu,text
+py_menu,1,duration,1. *Duration*,1,:hourglass_done:,py_menu_duration,
+py_menu,2,cost,2. *Cost*,1,:money_bag:,py_menu_cost,
+py_menu,3,course,3. *ShortCourse* details,1,none,py_image,
+py_menu,4,pdf,4. *Detailed*  course details,1,none,py_pdf,
+py_menu,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,courses_menu,
+py_menu,none,none,Please type the *Keyword* or the option number (Ex:2),1,:backhand_index_pointing_up:,py_menu,
+c_menu_duration,1,duration,Duration of C-Language course is 50days,1,:hourglass_done:,c_menu_duration,text
+c_menu_duration,2,cost,2. To know *Cost*,1,:money_bag:,c_menu_cost,
+c_menu_duration,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,courses_menu,
+c_menu_duration,none,none,Please type *0* to the previous menu or *menu* to the main menu,1,:backhand_index_pointing_up:,c_menu,
+c_menu_cost,2,cost,Cost of C-Language course is Rs-30000,1,:money_bag:,c_menu_cost,text
+c_menu_cost,1,duration,1. To know *Duration*,1,:hourglass_done:,c_menu_duration,
+c_menu_cost,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,courses_menu,
+c_menu_cost,none,none,Please type *0* to the previous menu or *menu* to the main menu,1,:backhand_index_pointing_up:,c_menu,
+cpp_menu_duration,1,duration,Duration of Cpp-Language course is 30days,1,:hourglass_done:,cpp_menu_duration,text
+cpp_menu_duration,2,cost,2. To know *cost*,1,:money_bag:,cpp_menu_cost,
+cpp_menu_duration,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,courses_menu,
+cpp_menu_duration,none,none,Please type *0* to the previous menu or *menu* to the main menu,1,:backhand_index_pointing_up:,cpp_menu_duration,
+cpp_menu_cost,2,cost,Cost of Cpp-Language course is Rs-20000,1,:money_bag:,cpp_menu_cost,text
+cpp_menu_cost,1,duration,1. To know *Duration*,1,:hourglass_done:,cpp_menu_duration,
+cpp_menu_cost,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,courses_menu,
+cpp_menu_cost,none,none,Please type *0* to the previous menu or *menu* to the main menu,1,:backhand_index_pointing_up:,cpp_menu_cost,
+py_menu_duration,1,duration,Duration of Python course is 30days,1,:hourglass_done:,py_menu_duration,text
+py_menu_duration,2,cost,2. To know *cost*,1,:money_bag:,py_menu_cost,
+py_menu_duration,3,course,3. To know *ShortCourse* details,1,none,py_image,
+py_menu_duration,4,pdf,4. To know *Detailed* Course details,1,none,py_pdf,
+py_menu_duration,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,courses_menu,
+py_menu_duration,none,none,Please type *0* to the previous menu or *menu* to the main menu,1,:backhand_index_pointing_up:,py_menu_duration,
+py_menu_cost,2,cost,Cost of Python course is Rs-25000,1,:money_bag:,py_menu_cost,text
+py_menu_cost,1,duration,1. To know *Duration*,1,:hourglass_done:,py_menu_duration,
+py_menu_cost,3,course,3. To know *ShortCourse* details,1,none,py_image,
+py_menu_cost,4,pdf,4. To know *Detailed* Course details,1,none,py_pdf,
+py_menu_cost,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,courses_menu,
+py_menu_cost,none,none,Please type *0* to the previous menu or *menu* to the main menu,1,:backhand_index_pointing_up:,py_menu_cost,
+py_image,3,course,https://thumbs.dreamstime.com/z/python-programming-language-training-concept-computer-courses-laptop-table-written-screen-187638113.jpg,1,none,py_image,media
+py_image,1,duration,1. To know *Duration*,2,:hourglass_done:,py_menu_duration,text
+py_image,2,cost,2. To know *Cost*,2,:money_bag:,py_menu_cost,
+py_image,4,pdf,4. To know *Detailed* Course details,2,none,py_pdf,
+py_image,0,Previous,0. *Previous*  Menu,2,:right_arrow_curving_up:,courses_menu,
+py_image,none,none,Please type *0* to the previous menu or *menu* to the main menu,2,:backhand_index_pointing_up:,py_image,
+py_pdf,4,pdf,https://bugs.python.org/file47781/Tutorial_EDIT.pdf,1,none,py_pdf,media
+py_pdf,1,duration,1. To know *Duration*,2,:hourglass_done:,py_menu_duration,text
+py_pdf,2,cost,2. To know *Cost*,2,:money_bag:,py_menu_cost,
+py_pdf,3,course,3. To know *ShortCourse* details,2,none,py_image,
+py_pdf,0,Previous,0. *Previous*  Menu,2,:right_arrow_curving_up:,courses_menu,
+py_pdf,none,none,Please type *0* to the previous menu or *menu* to the main menu,2,:backhand_index_pointing_up:,py_pdf,
+aura_context,none,aura,https://auranetworks.in,1,:backhand_index_pointing_left:,aura_context,text
+aura_context,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,main_menu,
+aura_context,none,none,Please type *0* to the previous menu or *menu* to the main menu,1,:backhand_index_pointing_up:,aura_context,
+contact_context,none,contact,"Contact Details: 
+ 
+ Name : Bhagavan 
+ PhoneNumber : 9902996750",1,:mobile_phone:,contact_context,text
+contact_context,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,main_menu,
+contact_context,none,none,Please type *0* to the previous menu or *menu* to the main menu,1,:backhand_index_pointing_up:,contact_context,
+reviews_context,none,reviews,"https://www.google.com/maps/place/Aura+Networks/@12.940266,77.694559,16z/data=!4m5!3m4!1s0x0:0x682a83b2fd64fe23!8m2!3d12.939571!4d77.6949497?hl=en-US",1,:backhand_index_pointing_left:,reviews_context,text
+reviews_context,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,main_menu,
+reviews_context,none,none,Please type *0* to the previous menu or *menu* to the main menu,1,:backhand_index_pointing_up:,reviews_context,
+location_context,none,location,"https://www.google.com/maps/@12.9362741,77.6993249,13z?hl=en-IN",1,:backhand_index_pointing_left:,location_context,text
+location_context,0,Previous,0. *Previous*  Menu,1,:right_arrow_curving_up:,main_menu,
+location_context,none,none,Please type *0* to the previous menu or *menu* to the main menu,1,:backhand_index_pointing_up:,location_context,
